@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    font-family: Arial, sans-serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  form {
+    margin-bottom: 2rem;
   }
-}
+  
+  .card {
+    margin-bottom: 2rem;
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    margin-right: 1rem;
+  }
+  
+  .package-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .package-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .package-card img {
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .package-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .package-card p {
+    margin-bottom: 1rem;
+  }
+  
+  .package-card .price {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .package-card .rating {
+    margin-bottom: 1rem;
+  }
+  
+  .package-card .duration {
+    margin-bottom: 1rem;
+  }
+  
+  .package-card .num-travelers {
+    margin-bottom: 1rem;
+  }
+  
+  .package-card .specialty {
+    margin-bottom: 1rem;
+  }
+  
